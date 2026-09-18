@@ -31,7 +31,7 @@ jobs:
         uses: DeterminateSystems/determinate-nix-action@v3
 
       - name: Enable Magic Nix Cache
-        uses: DeterminateSystems/magic-nix-cache-action@v14
+        uses: DeterminateSystems/magic-nix-cache-action@v15
 
       - name: Check flake
         run: nix flake check --print-build-logs
